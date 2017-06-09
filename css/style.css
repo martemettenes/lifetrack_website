@@ -1,3 +1,17 @@
+/*
+Colors
+
+    color: #f5835a;
+    background-color: rgb(74, 74, 74);
+background-color: #ffbf8d;
+    background-color: #6a92a0;
+    background-color: #93c1ce;
+    background-color: #cdebf1;
+
+
+
+*/
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -9,10 +23,10 @@ body {
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
-    font-family: ABeeZee, helvetica, sans serif;
+    font-family: 'Dosis', sans-serif;
     /* color: rgb(150, 193, 195); */
     color: rgb(255, 158, 116);
-    background-color: #ffbf8d;
+    background-color: #6a92a0;
     width: 100%;
     margin: 0 auto;
 }
@@ -23,21 +37,21 @@ body {
 }
 
 .header {
-    background-color: #ffbf8d;
+    background-color: #6a92a0;
     max-height: 80vh;
 }
 
 #features1 {
-    background-color: #96c2c4;
+    background-color: #ffbf8d;
 }
 
 #features2 {
-    background-color: #4a4a4a;
+    background-color: #cdebf1;
 }
 
 .box {
-    padding: 5%;
-    padding-top: 5%;
+    padding: 3%;
+    width: 100%;
 }
 
 .box2 {
@@ -46,19 +60,43 @@ body {
     min-height: 200px;
     text-align: center;
     margin: 0 auto;
+    padding: 2%;
+}
+
+.box33 {
+    width: 33%;
+    height: auto;
+    min-height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.box66 {
+    width: 66%;
+    height: auto;
+    min-height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2%;
 }
 
 .download {
-    width: 35%;
+    width: 60%;
     min-width: 125px;
     padding: 5%;
     border-radius: 5px;
-    background-color: #96c2c4;
+    background-color: #ffbf8d;
     color: #4a4a4a;
     font-size: 20px;
     margin: 0 auto;
     margin-top: 20%;
     box-shadow: 5px 5px 2px rgba(66, 90, 92, 0.2);
+}
+
+.download:hover {
+    background-color: #f5835a;
+    /*    box-shadow: 0 0 0;*/
 }
 
 
@@ -72,15 +110,32 @@ IMAGES
     width: 100%;
 }
 
+.smallmockup {
+    max-width: 50%;
+    height: auto;
+}
+
 .app-mockup {
     width: auto;
+    max-width: 100%;
     max-height: 100%;
 }
 
 .logo {
-    width: 40%;
+    width: 80%;
     height: auto;
     text-align: center;
+    margin-bottom: 5%;
+}
+
+.icons {
+    width: 7%;
+    height: auto;
+    margin: 3%;
+}
+
+.downloadicons {
+    margin-top: 5%;
 }
 
 
@@ -110,18 +165,20 @@ h3 {
     color: #4a4a4a;
 }
 
+.textbox {
+    max-width: 400px;
+}
+
+.lightbluetext {
+    color: #cdebf1;
+}
+
 a {
-text-decoration: none;
+    text-decoration: none;
     color: inherit;
 }
 
-.download:hover {
-    background-color: #88b7b9;
-/*    box-shadow: 0 0 0;*/
-
+.justify-center {
+    align-items: center;
+    justify-content: center;
 }
-
-
-
-
-
